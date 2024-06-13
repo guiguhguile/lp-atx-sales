@@ -8,28 +8,18 @@ import {
   CarouselPrevious,
 } from "./ui/carousel";
 
-import screen1 from "../../public/dashboard.png";
-import screen2 from "../../public/estoque-produtos.png";
-import Image from "next/image";
-
 const funcionalities = [
   {
-    image: screen1,
-    title: "Dashboard Modernos",
-    description:
-      "Modernos e avançados, fazendo com que o gerenciamento das informações se torne mais prático e rico em detalhes",
+    title: "Varejistas",
   },
   {
-    image: screen2,
-    title: "CONTROLE DE ESTOQUE",
-    description:
-      "Cadastre, controle e organize as informações e os produtos do seu estoque",
+    title: "Tecnologia da informação",
   },
 ];
 
-const FuncionalitySlide = () => {
+const Activity = () => {
   return (
-    <section className="w-full overflow-hidden mt-[100px]">
+    <section className="w-full overflow-hidden mt-[100px] py-20 bg-gray-100">
       <div className="max-container padding-container flexCenter flex-col gap-10">
         <h1 className="text-center text-3xl font-bold">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
@@ -38,17 +28,13 @@ const FuncionalitySlide = () => {
         <Carousel className="w-full">
           <CarouselContent>
             {funcionalities.map((item, index) => (
-              <CarouselItem key={index}>
+              <CarouselItem
+                key={index}
+                className="basis-1/1 lg:basis-2/4 ml-2 py-5"
+              >
                 <div className="p-1">
-                  <Card className="border-none shadow-none">
+                  <Card className="p-10 lg:w-[320px] w-[200px] h-[300px] rounded-lg flexCenter hover:scale-105 transition-all duration-500">
                     <CardContent className="flex items-center justify-center lg:flex-row flex-col gap-8">
-                      <Image
-                        src={item.image}
-                        alt="screenshot"
-                        objectFit="cover"
-                        className="lg:w-[50%] lg:h-[50%] w-full h-full border-4 border-blue-900 rounded-lg"
-                      />
-
                       <div className="flex flex-col gap-5 ">
                         <h3 className="font-bold">{item.title}</h3>
                         <p>{item.description}</p>
@@ -65,4 +51,4 @@ const FuncionalitySlide = () => {
   );
 };
 
-export default FuncionalitySlide;
+export default Activity;

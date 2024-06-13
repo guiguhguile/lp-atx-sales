@@ -1,3 +1,4 @@
+import Activity from "@/components/activity";
 import FuncionalitySlide from "@/components/funcionalitySlide";
 import Hero from "@/components/hero";
 import ProblemResolution from "@/components/problems-resolution";
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <ProblemResolution />
       <FuncionalitySlide />
+      <Activity />
     </>
   );
 }
