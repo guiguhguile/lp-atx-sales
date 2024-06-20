@@ -1,5 +1,6 @@
 import { FAQ } from "@/components/FAQ";
 import Activity from "@/components/activity";
+import Form from "@/components/form";
 import FuncionalitySlide from "@/components/funcionalitySlide";
 import Hero from "@/components/hero";
 import ProblemResolution from "@/components/problems-resolution";
@@ -9,8 +10,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      {/* <ProblemResolution /> */}
-      <FuncionalitySlide />
+      <Form />
       <FAQ />
     </>
   );

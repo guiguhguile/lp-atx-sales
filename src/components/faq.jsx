@@ -7,16 +7,14 @@ import {
 
 export function FAQ() {
   return (
-    <section className="w-full overflow-hidden py-20 mt-[200px]" id="faq">
-      <div className="max-container padding-container flex justify-center gap-10">
+    <section className="w-full overflow-hidden py-20 mt-[100px]" id="faq">
+      <div className="max-container padding-container flex lg:flex-row flex-col justify-center gap-10">
         <div className="max-w-[500px] space-y-8">
-          <h1 className="text-3xl font-bold">
-            Lorem ipsum dolor, sit amet consectetur a
-          </h1>
+          <h1 className="text-3xl font-bold">Perguntas Frequentes (FAQ)</h1>
 
           <p className="">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi
-            doloremque reiciendis pariatur non saepe illum repellendus,
+            Tire suas dúvidas e saiba mais sobre como nosso sistema de gestão
+            pode beneficiar sua empresa.
           </p>
         </div>
 
