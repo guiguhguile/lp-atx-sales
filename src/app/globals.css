@@ -95,4 +95,12 @@
   .flexResponsivity {
     @apply flex lg:flex-row flex-col;
   }
+
+  .navLink {
+    @apply text-gray-500;
+  }
+
+  .navActiveLink {
+    @apply text-lime-400;
+  }
 }

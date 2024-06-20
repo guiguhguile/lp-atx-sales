@@ -11,7 +11,7 @@ const ProblemResolution = () => {
         <div className="flex lg:flex-row flex-col justify-between items-center gap-20">
           <div className="w-full bg-lime-300 h-[200px]"></div>
 
-          <div className="flex flex-col">
+          <div className="flex flex-col gap-10">
             <h2 className="lg:text-4xl text-2xl font-bold ">
               Lorem ipsum dolor sit ametds awser sdsa, consectetur wrerw
               adipisicing elit. Praesentium ad nostrum

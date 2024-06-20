@@ -1,3 +1,4 @@
+import { FAQ } from "@/components/FAQ";
 import Activity from "@/components/activity";
 import FuncionalitySlide from "@/components/funcionalitySlide";
 import Hero from "@/components/hero";
@@ -8,9 +9,10 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <ProblemResolution />
+      {/* <ProblemResolution /> */}
       <FuncionalitySlide />
-      <Activity />
+      <FAQ />
     </>
   );
+  j;
 }
