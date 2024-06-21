@@ -15,13 +15,13 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`scroll-smooth ${GeistSans.className} `}>
+    <html lang="en" className={` scroll-smooth ${GeistSans.className} `}>
       <body>
         <NavBar />
         <main>{children}</main>
         <Footer />
         <Link href={"/"}>
-          <div className="fixed bottom-5 right-5 rounded-full w-[90px] h-[90px] bg-green-400 p-5">
+          <div className="fixed bottom-5 right-5 rounded-full w-[70px] h-[70px] bg-green-400 p-5">
             <svg
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"

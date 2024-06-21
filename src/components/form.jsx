@@ -26,7 +26,10 @@ const Form = () => {
   const handleFormSubmit = (data) => {};
 
   return (
-    <section className="w-full  overflow-hidden bg-[#133580]  py-32 mt-[100px]">
+    <section
+      className="w-full  overflow-hidden bg-[#133580]  py-32 mt-[100px]"
+      id="form"
+    >
       <div className="max-container padding-container flex lg:flex-row flex-col gap-28 lg:justify-between items-center ">
         <div className="max-w-[600px] flex flex-col space-y-5">
           <h1 className="text-white lg:text-5xl text-4xl mb-[50px] flex lg:flex-row flex-col items-center ">

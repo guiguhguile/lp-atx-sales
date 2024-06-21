@@ -1,5 +1,3 @@
-import { FAQ } from "@/components/FAQ";
-import Activity from "@/components/activity";
 import Cta from "@/components/cta";
 import Features from "@/components/features";
 import Form from "@/components/form";
