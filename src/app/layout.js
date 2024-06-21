@@ -6,6 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 import { GeistSans } from "geist/font/sans";
 import Link from "next/link";
+import Footer from "@/components/footer";
 
 export const metadata = {
   title: "Create Next App",
@@ -18,7 +19,7 @@ export default function RootLayout({ children }) {
       <body>
         <NavBar />
         <main>{children}</main>
-
+        <Footer />
         <Link href={"/"}>
           <div className="fixed bottom-5 right-5 rounded-full w-[90px] h-[90px] bg-green-400 p-5">
             <svg

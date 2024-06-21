@@ -23,26 +23,13 @@ const Form = () => {
     setValue("phone", PhoneNumberMask(phoneValue));
   }, [phoneValue]);
 
-  const handleFormSubmit = (data) => {
-    console.log(data);
-  };
+  const handleFormSubmit = (data) => {};
 
   return (
-    <section className="w-full  overflow-hidden bg-[#133580]  pb-32 mt-[100px]">
-      <svg
-        data-name="Layer 1"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1200 120"
-        preserveAspectRatio="none"
-      >
-        <path
-          d="M649.97 0L550.03 0 599.91 54.12 649.97 0z"
-          className="relative block fill-white"
-        ></path>
-      </svg>
+    <section className="w-full  overflow-hidden bg-[#133580]  py-32 mt-[100px]">
       <div className="max-container padding-container flex lg:flex-row flex-col gap-28 lg:justify-between items-center ">
         <div className="max-w-[600px] flex flex-col space-y-5">
-          <h1 className="text-white lg:text-5xl text-3xl mb-[50px] flex lg:flex-row flex-col items-center ">
+          <h1 className="text-white lg:text-5xl text-4xl mb-[50px] flex lg:flex-row flex-col items-center ">
             Preencha o formulário
             <span className="h-[2px] w-[10%] ml-5 lg:mt-0 mt-5 bg-white"></span>
           </h1>
@@ -121,7 +108,7 @@ const Form = () => {
         </div>
 
         <form
-          className="flex flex-col items-center space-y-8  lg:w-[40%] w-[100%] mt-5 "
+          className="flex flex-col items-center space-y-8  lg:w-[40%] w-[100%] mt-10 "
           onSubmit={handleSubmit(handleFormSubmit)}
         >
           <div className="flex flex-col w-full">

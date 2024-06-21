@@ -1,17 +1,18 @@
 import { FAQ } from "@/components/FAQ";
 import Activity from "@/components/activity";
+import Cta from "@/components/cta";
+import Features from "@/components/features";
 import Form from "@/components/form";
-import FuncionalitySlide from "@/components/funcionalitySlide";
 import Hero from "@/components/hero";
-import ProblemResolution from "@/components/problems-resolution";
-import Image from "next/image";
 
 export default function Home() {
   return (
     <>
       <Hero />
       <Form />
-      <FAQ />
+      {/* <FAQ /> */}
+      <Features />
+      <Cta />
     </>
   );
   j;
